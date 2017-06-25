@@ -1,0 +1,14 @@
+{
+	"name": "scaffoldme",
+	"version": "1.0.0",
+	"main": "index.js",
+	"bin": {
+		"scaffoldme": "index.js"
+	},
+	"dependencies": {
+		"caporal": "^0.6.0",
+		"colors": "^1.1.2",
+		"prompt": "^1.0.0",
+		"shelljs": "^0.7.8"
+	}
+}
