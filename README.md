@@ -12,10 +12,10 @@ This is what the file structure should look like:
 templates
 └─── <template>
      ├─── default
-		 |		 ├─── _variables.js
-		 |		 └─── src
+     |		 ├─── _variables.js
+     |		 └─── src
      └─── <variant>
-				  ├───_variables.js
+          ├───_variables.js
           └───src
 ```
 
