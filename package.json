@@ -5,6 +5,18 @@
 	"bin": {
 		"scaffoldme": "index.js"
 	},
+	"description": "An easy-peasy scaffolding CLI tool",
+	"license": "MIT",
+	"keywords": [
+		"scaffold",
+		"quickstart",
+		"template",
+		"cli"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CodingHobby/Scaffoldme.git"
+	},
 	"dependencies": {
 		"caporal": "^0.6.0",
 		"colors": "^1.1.2",
