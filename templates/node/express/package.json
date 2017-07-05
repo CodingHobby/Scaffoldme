@@ -1,0 +1,20 @@
+{
+	"name": "[NAME]",
+	"version": "[VERSION]",
+	"description": "[DESCRIPTION]",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"author": "[AUTHOR]",
+	"license": "[LICENSE]",
+	"dependencies": {
+		"express": "^4.15.3",
+		"body-parser": "^1.17.2",
+		"express-handlebars": "^3.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.11.0"
+	}
+}

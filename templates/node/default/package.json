@@ -1,0 +1,17 @@
+{
+	"name": "[NAME]",
+	"version": "[VERSION]",
+	"description": "[DESCRIPTION]",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js",
+		"test": "jest"
+	},
+	"author": "[AUTHOR]",
+	"license": "[LICENSE]",
+	"devDependencies": {
+		"nodemon": "^1.11.0",
+		"jest": "^20.0.4"
+	}
+}

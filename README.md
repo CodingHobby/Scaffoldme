@@ -25,4 +25,6 @@ The `_variables` file is where you store all the variables you need to replace i
 
 To add a new template you can run the command `scaffoldme add --name <name>`, where name is the name of the new template. If you omit the `name` parameter then the name of the current working directory gets assigned.
 
+To list all of the templates you have registered and their variants you can simply run the command `scaffoldme list`, and everything will be outputted. If you get any errors, you might want to check your file structure: it's likely you forgot to put your template in a "default" variant folder!
+
 Have fun!
