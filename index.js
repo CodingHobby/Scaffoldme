@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const prog = require('caporal')
 const createCmd = require('./lib/create')
 const addCmd = require('./lib/add')
