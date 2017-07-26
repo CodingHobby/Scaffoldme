@@ -4,6 +4,7 @@ const prog = require('caporal')
 const createCmd = require('./lib/create')
 const addCmd = require('./lib/add')
 const listCmd = require('./lib/list')
+const removeCmd = require('./lib/remove')
 
 prog
 	.version('1.0.0')
@@ -18,5 +19,9 @@ prog
 
 	.command('list', 'Lists all templates')
 	.action(listCmd)
+
+	.command('remove', 'Remove a template')
+	.argument('<template>', 'Template to remove (automatically set to working directory name)')
+	.action(removeCmd)
 
 prog.parse(process.argv)
